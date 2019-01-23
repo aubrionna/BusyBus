@@ -1,0 +1,103 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+/* text properties */
+h1 {
+  font-size: 16px;
+  font-weight: medium;
+}
+
+h3 {
+  font-size: 100%;
+  line-height: 1em;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 15px 40px 15px 15px;
+  position: fixed;
+  width: 420px;
+  background-color: #007AFF;
+}
+
+.navigation {
+
+}
+
+.map {
+  height: auto;
+  width: 420px;
+}
+
+.container {
+  margin: 0 auto;
+  border: 0 auto;
+  width: 420px;
+}
+
+.bus-list {
+  margin-top: 30px;
+  background-color: #aaa;
+  float: left;
+}
+/* container for restaurant */
+.bus {
+  margin: 0 auto;
+  border: 0 auto;
+  background-color: #FFFFFF;
+  height: 71px;
+}
+.oos-bus {
+  margin: 0 auto;
+  border: 0 auto;
+  background-color: #FF0000;
+  height: 71px;
+}
+.reroute-bus {
+  margin: 0 auto;
+  border: 0 auto;
+  background-color: #FFFF00;
+  height: 71px;
+}
+/* bus information */
+.number {
+  float: left;
+  border-bottom: 1px solid grey;
+  padding: 5%;
+  width: 10%;
+  display: inline;
+}
+/* align using float and inline-block */
+.left {
+  float: left;
+  border-bottom: 1px solid grey;
+  padding: 5%;
+  width: 50%;
+  display: inline;
+}
+/* align using float and inline-block */
+.right {
+  float: left;
+  border-bottom: 1px solid grey;
+  padding: 5%;
+  width: 30%;
+  display: inline;
+}
+/* align using float and inline-block */
+.arrow {
+  float: left;
+  width: 10%;
+  border-bottom: 1px solid grey;
+  padding: 21px 20px 21px 15px;
+  display: inline-block;
+}
+/*  change background color when hovered */
+.bus:hover > div { background: #7E7E7E; }
+.oos-bus:hover > div { background: #7E7E7E; }
+.reroute-bus:hover > div { background: #7E7E7E; }
