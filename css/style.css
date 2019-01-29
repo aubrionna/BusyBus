@@ -10,7 +10,6 @@ body {
 }
 /* text properties */
 h1 {
-  padding-top: 7px;
   font-size: 20px;
   color: white;
 }
@@ -66,7 +65,8 @@ ul {
 ul.nav {
   background-color: #007AFF;
   border-bottom: none;
-  height:55px;
+  height:40px;
+  padding-top: 2px;
 }
 
 ul.reroute {
@@ -101,7 +101,7 @@ li.arrow {
 }
 
 li.nav-arrow {
-  padding-top: 10px;
+  padding-top: 0px;
   transform: scale(.9);
   color: white;
 }
