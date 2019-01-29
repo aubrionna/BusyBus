@@ -15,7 +15,7 @@ h1 {
 
 h3 {
   font-size: 100%;
-  line-height: 1em;
+  line-height: 1.4em;
 }
 
 nav {
@@ -42,62 +42,48 @@ nav {
 }
 
 .bus-list {
-  margin-top: 30px;
+  margin-top: 0px;
   background-color: #aaa;
   float: left;
 }
-/* container for restaurant */
-.bus {
+/* lists of bus info */
+
+ul {
+  list-style: none;
   margin: 0 auto;
   border: 0 auto;
+  padding: 5px;
   background-color: #FFFFFF;
-  height: 71px;
-}
-.oos-bus {
-  margin: 0 auto;
-  border: 0 auto;
-  background-color: #FF0000;
-  height: 71px;
-}
-.reroute-bus {
-  margin: 0 auto;
-  border: 0 auto;
-  background-color: #FFFF00;
-  height: 71px;
-}
-/* bus information */
-.number {
-  float: left;
+  height: 58px;
+  width: 420px;
   border-bottom: 1px solid grey;
-  padding: 5%;
-  width: 10%;
-  display: inline;
 }
-/* align using float and inline-block */
-.left {
+
+ul.reroute {
+  background-color: yellow;
+}
+
+ul.oos {
+  background-color: red;
+}
+
+li {
+  padding: 5px;
   float: left;
-  border-bottom: 1px solid grey;
-  padding: 5%;
-  width: 50%;
-  display: inline;
 }
-/* align using float and inline-block */
-.right {
-  float: left;
-  border-bottom: 1px solid grey;
-  padding: 5%;
-  width: 30%;
-  display: inline;
+
+li.number {
+  width: 50px;
 }
-/* align using float and inline-block */
-.arrow {
-  float: left;
-  width: 10%;
-  border-bottom: 1px solid grey;
-  padding: 21px 20px 21px 15px;
-  display: inline-block;
+
+li.destination {
+  width: 220px;
 }
-/*  change background color when hovered */
-.bus:hover > div { background: #7E7E7E; }
-.oos-bus:hover > div { background: #7E7E7E; }
-.reroute-bus:hover > div { background: #7E7E7E; }
+
+li.time {
+  width: 110px;
+}
+
+li.arrow {
+  padding-top: 10px;
+}
