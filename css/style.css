@@ -65,8 +65,8 @@ ul {
 ul.nav {
   background-color: #007AFF;
   border-bottom: none;
-  height:40px;
-  padding-top: 2px;
+  height: 45px;
+  padding: 5px;
 }
 
 ul.reroute {
