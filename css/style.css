@@ -70,9 +70,11 @@ ul.nav {
 }
 
 ul.reroute {
+  background-color: #FFD5D5;
 }
 
 ul.oos {
+  background-color: #D2D2D2;
 }
 
 li {
