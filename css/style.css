@@ -84,16 +84,16 @@ li {
 
 li.number {
   padding-top: 18px;
-  padding-left: 5px;
-  width: 50px;
+  padding-left: 15px;
+  width: 60px;
 }
 
 li.destination {
-  width: 185px;
+  width: 180px;
 }
 
 li.time {
-  width: 105px;
+  width: 100px;
 }
 
 li.arrow {
